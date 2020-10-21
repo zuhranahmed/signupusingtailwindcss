@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign in</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="bg-gray-200 h-screen">
+    <div
+      class="max-w-screen-lg mx-auto my-2 md:my-6 p-2 md:p-4 h-screen flex justify-center items-center"
+    >
+      <div
+        class="flex md:flex-col lg:flex-row bg-white p-1 m-4 md:p-8 md:m-12 rounded-lg shadow-md"
+      >
+        <div class="w-3/5 p-8 md:p-12 text-gray-800 w-full lg:w-3/5">
+          <div>
+            <h1
+              class="lg:text-left md:text-center font-semibold text-xl md:text-3xl mb-5"
+            >
+              Log in
+            </h1>
+          </div>
+          <form>
+            <div class="flex flex-col mb-6">
+              <label for="email" class="font-semibold mb-2">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter your email address"
+                required
+                class="border-b-2 border-gray-400 w-full lg:w-4/5 pb-2 mt-2 text-sm md:text-lg outline-none focus:border-purple-400"
+              />
+            </div>
+
+            <div class="flex flex-col mb-5">
+              <label class="font-semibold mb-2" for="password">Password</label>
+              <input
+                type="password"
+                id="password"
+                name="password"
+                placeholder="Type to create a password"
+                required
+                class="border-b-2 border-gray-400 w-full lg:w-4/5 pb-2 mt-2 text-sm md:text-lg outline-none focus:border-purple-400"
+              />
+            </div>
+            <div
+              class="flex justify-between items-center mb-12 w-full lg:w-4/5"
+            >
+              <a
+                href="#"
+                class="mr-5 md:mr-0 text-xs md:text-sm text-purple-600 border-b-2 border-purple-400 border-dotted"
+                >Forgot password?</a
+              >
+              <div class="block text-center">
+                <button
+                  class="bg-gradient-to-tr from-purple-300 via-purple-500 to-purple-600 py-2 px-2 md:px-4 w-full cursor-pointer focus:outline-none text-sm md:text-lg font-semibold tracking-wide text-gray-200 md:hover:opacity-75 transition duration-150 ease-linear"
+                >
+                  Log in
+                </button>
+              </div>
+            </div>
+          </form>
+          <div
+            class="mb-3 h-1 w-full lg:w-4/5 border-t-2 border-gray-400"
+          ></div>
+          <div>
+            <p
+              class="text-gray-600 text-center w-full lg:w-4/5 mt-3 text-xs md:text-sm"
+            >
+              Or log in with
+            </p>
+          </div>
+          <div
+            class="grid grid-cols-1 md:grid-cols-2 gap-5 text-gray-800 justify-between w-full lg:w-4/5 mt-2 mb-2 md:mt-4 md:mb-4"
+          >
+            <button
+              class="focus:outline-none border border-gray-400 py-1 px-2 md:py-2 md:px-4 font-semibold tracking-wide text-sm md:text-lg flex justify-center items-center hover:border-purple-400 transition duration-150 ease-linear"
+            >
+              <img
+                class="h-6 w-6 mr-1"
+                src="images/facebook.png"
+                alt="facebook logo"
+              />
+              Facebook
+            </button>
+            <button
+              class="focus:outline-none border border-gray-400 py-1 px-2 md:py-2 md:px-4 font-semibold tracking-wide text-sm md:text-lg flex justify-center items-center hover:border-purple-400 transition duration-150 ease-linear"
+            >
+              <img
+                class="h-6 w-6 mr-1"
+                src="images/google.png"
+                alt="google logo"
+              />
+              Google
+            </button>
+          </div>
+          <div>
+            <p
+              class="text-gray-600 text-center w-full lg:w-4/5 mt-3 md:mt-6 text-xs md:text-sm"
+            >
+              Dont have an account yet?
+              <a
+                href="index.html"
+                class="text-purple-600 border-b-2 border-purple-400 border-dotted"
+                >Sign up</a
+              >
+            </p>
+          </div>
+        </div>
+        <div
+          class="rounded-lg shadow-sm p-12 bg-gradient-to-tr from-purple-300 via-purple-500 to-purple-600 text-white lg:mr-10 md:w-full lg:w-2/5 hidden md:block"
+        >
+          <div class="mb-6">
+            <h3 class="font-semibold text-lg mb-2">
+              Log in to see what's latest
+            </h3>
+            <p class="font-semibold tracking-wide text-sm w-full">
+              Enter your email address and password to log in
+            </p>
+          </div>
+          <div class="mb-6">
+            <h3 class="font-semibold text-lg mb-2">Class-platform solution</h3>
+            <p class="font-semibold tracking-wide text-sm w-full">
+              Manange your account and preview your newsletters
+            </p>
+          </div>
+          <div>
+            <h3 class="font-semibold text-lg mb-2">Start sending emails</h3>
+            <p class="font-semibold tracking-wide text-sm w-full">
+              Use our API or pick pre-built templates and more
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
